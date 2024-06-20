@@ -18,7 +18,7 @@ import de.fhws.fiw.fds.sutton.server.AbstractStart;
 
 public class Start extends AbstractStart {
 
-    public static final String CONTEXT_PATH = "demo";
+    public static final String CONTEXT_PATH = "ex3";
 
     public static void main(String[] args) throws Exception {
         new Start().startTomcat();

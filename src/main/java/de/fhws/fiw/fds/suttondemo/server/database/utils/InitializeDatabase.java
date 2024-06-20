@@ -6,5 +6,6 @@ public class InitializeDatabase {
 
     public static void initializeDBWithRelations() {
         DaoFactory.getInstance().getPersonLocationDao().initializeDatabase();
+        DaoFactory.getInstance().getPartnerUniversityModuleDao().initializeDatabase();
     }
 }

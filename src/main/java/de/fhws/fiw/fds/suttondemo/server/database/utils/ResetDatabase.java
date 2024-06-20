@@ -6,6 +6,7 @@ public class ResetDatabase {
 
     public static void resetAll() {
         DaoFactory.getInstance().getPersonDao().resetDatabase();
+        DaoFactory.getInstance().getPartnerUniversityDao().resetDatabase();
     }
 
 }
